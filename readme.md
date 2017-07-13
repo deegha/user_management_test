@@ -6,7 +6,9 @@
 
 - Clone the repository
 - Run the `composer install` to install all the depandancies
+- Rename `.env.example` to `.env` or Create a file `.env` in the root directory, copy and past text from `.env.example` file
 - Run `php artisan key:generate` command to generate the APP-KEY
+- Give permission to the `storage` directory `sudo chmod 777 -R storage/`
 
 ### Setting up Database
 

@@ -17,7 +17,7 @@
   @if($departments)
   <div class="form-group">
     <select class="form-control" name="departmrnt_id">
-
+    <option value="{{$user->department->id}}">{{$user->department->department_name}}</option>
     	@foreach($departments as $department)
         @if($department->id != $user->departmrnt_id)
     		<option value="{{ $department->id }}">{{ $department->department_name }}</option>
