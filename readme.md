@@ -28,7 +28,7 @@
 
 ## Running the app
 
-- navigate to `http://localhost/datamanagment/public/`
+- navigate to `http://localhost/user_management_test/public/`
 
 
 
